@@ -1,0 +1,316 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+  
+  body {
+	color: tan;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+  main {
+	display: flex;
+	flex-wrap: wrap;
+	flex: none;
+  	background-color: #b9c6ae;
+  	padding: 20px;
+  	text-align: center;
+	position:sticky;
+}
+
+	main h2 {
+		text-align:center;
+		font-size: 30px;
+		color:green;
+		align-content: center;
+
+	}
+  
+/* HEADER / NAV BAR STYLES START */
+  
+header {
+	z-index: 9999;
+	padding: 20px 35px;
+	background-color: var(--tertiary-color);
+	background-image: url("../images/Horshoecanyon.jpeg");
+	background-size: cover;
+	background-position: 80%;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: sticky;
+	top: 0;
+}
+
+header img {
+	width: 20%;
+	height: 20%;
+}
+  
+header h1 {
+	font-weight: bold;
+	margin: 0;
+	font-size: 36px;
+	color: white;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+	font-weight: bold;
+	margin: 0;
+	font-size: 28px;
+	color: darkorange;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 1.5);
+}
+  
+header a {
+	text-decoration: none;
+	color: white;
+}
+  
+header nav {
+	margin: 7px 0;
+}
+  
+header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+  
+header nav ul li a {
+	padding: 10px 15px;
+	font-weight: lighter;
+	font-size: 1.55vw;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+header nav ul li a:hover {
+	background: grey;
+	color: white;
+	border-radius: 15px;
+	text-shadow: none;
+}
+  /* HEADER / NAVBAR STYLES END */
+
+/* HERO STYLES START */
+.hero {
+	background-image: url('../images/Horshoecanyon.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 80%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.hero-objective {
+	width: 80%;
+	text-align: center;
+	margin: 3.5%;
+	color: white;
+	font-size: 18px;
+	line-height: 1.2;
+}
+  
+.hero-objective h2 {
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* HERO STYLES END */ 
+
+
+
+/* PROJECT SECTION BEGINS */
+
+.card {
+	border-style: solid;
+	border-color: orange;
+	border-width: 3px;
+	border-radius: 15px;
+	padding: 5px;
+	flex: 0 0 200px;
+  }
+
+.card header {
+	font: white;
+	font: inline;
+	background-color: transparent;
+	justify-content: center;
+}
+  
+.card p {
+	text-align: center;
+	color: white;
+}
+  
+.card img {
+	width: 75%;
+}
+
+.projects-lllmain {
+	flex: 4;
+	background-color: transparent;
+	padding: 1px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: white;
+	position:sticky;
+	font-size: 20px;
+}
+
+.projects-lllmain img {
+	width: 100%;
+}
+
+.projects-lll {
+	flex: 4;
+	background-color: transparent;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: white;
+	position:sticky;
+	font-size: 20px;
+}
+
+/* PROJECTION SECTION ENDS */
+
+/* WORK EXPERIENCE STARTS */
+
+.work-experiencelll {
+	flex: 4;
+	padding: 20px;
+	display: inline;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: white;
+	position:sticky;
+	font-size: 18px;
+}
+
+.work-experiencelll h2 {
+	color: darkorange;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 1.5);
+}
+/* WORK EXPERIENCE ENDS */
+
+/* EDUCATION & EXPERINCE BEGINS */
+
+
+.education-certificationslll {
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	display: inline-block;
+	
+}
+
+/* CONTACT ME SECTION START */ 
+
+.contact-melll {
+	color: white;
+	font-size: 20px;
+	padding:20px;
+	display: inline-block;
+
+}
+
+/* CONTACT ME END */
+
+/* FOOTER BEGINS */
+ footer {
+	background: orange;
+	padding: 40px 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: auto;
+}
+  
+  footer h3 {
+	color: white;
+	font-size: 20px;
+	margin: 0;
+  }
+
+  footer div {
+	line-height: 1.5;
+	text-align: right;
+	color: white;
+  }
+  
+  /* END FOOTER */
+
+  /* BEGIN MEDIA RESPONSIVE DESIGN */
+@media screen and (max-width: 980px) {
+	header {
+	  padding-bottom: 0;
+	  justify-content: center;
+	  position: relative;
+	}
+  
+	header h1 {
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	header nav ul {
+	  margin-top: 20px;
+	  width: 100%;
+	  justify-content: center;
+	}
+  
+	header nav ul li a {
+	  font-size: 20px;
+	}
+  
+	main, nav {
+	flex-direction: column;
+	}
+	
+	footer h3, footer div {
+	  text-align: center;
+	  width: 100%;
+	}
+	
+  
+  @media screen and (max-width: 768px) {
+	section {
+	  padding: 30px 15px;
+	}
+
+	main, nav {
+		flex-direction: column;
+	}
+  
+	.section {
+	  flex: 1 100%;
+	  text-align: center;
+	}
+}
+
+  @media screen and (max-width: 575px) {
+	main, nav {
+		flex-direction: column;
+	}
+  
+	.contact-me {
+	  text-align: center;
+	}
+}
+

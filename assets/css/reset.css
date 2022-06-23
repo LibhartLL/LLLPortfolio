@@ -1,0 +1,291 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	background-image: url("../images/watercolor.jpg");
+	background-color: #f4aede;
+	height: 100%;
+}
+
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+#wrapper  {
+	width: 960px;
+	height: auto;
+	margin: auto;
+
+}
+
+#header {
+	height: 150px;
+	background-color: #fff;
+}
+
+#nav {
+	height: 150px;
+	background-color: #fff;
+}
+
+#social {
+	width: 270px;
+	height: 195px;
+	background-color: #FFf;
+	float: right;
+	margin-top: 125px;
+}
+
+#about {
+	width: 650px;
+	height: auto;
+	color: #777;
+	background-color: #fff;
+	float: left;
+	text-align: left;
+	line-height: 1.5;
+	margin-top: 125px;
+	margin-bottom: 5%;
+}
+
+
+#footer {
+	position: relative;
+	height: 100px;
+	background-color: #666666;
+	clear:both;
+	bottom:0;
+	width:100%;
+	border-top:     10px solid #4aaaa5;
+
+}
+
+.footercontainer {
+	width: 960px;
+	margin: 0 auto;
+	color: #f3f3f3;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.headercontainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #fff;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.50);
+
+}
+
+.logo {
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 1.0;
+
+
+	background-color: #4aaaa5;
+
+	height: 40px;
+	width: 210px;
+
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 40px;
+	padding-left: 25px;
+}
+
+
+li {
+	list-style: none;
+	float: left;
+	padding-top: 25px;
+	border-right: 1px solid #f3f3f3;
+
+}
+
+li:last-child { border-right: none;  }
+
+.nav {
+	float: right;
+	line-height: 2.5;
+	z-index: 1002;
+    background-color: #4aaaa5;
+
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav li{
+	list-style-type: none;
+	float:left;
+	display: block;
+	text-align: center;
+}
+
+.nav li a{
+	text-decoration: none;
+	color:#777777;
+}
+
+.nav li:hover {
+	background-color: #ccc;
+}
+
+.nav li{
+	list-style-type: none;
+	float:left;
+	display: block;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+}
+
+h1 span {
+	color: #ffffff;
+	font-weight: normal;
+	padding-left: 8px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.biopic {
+	padding: 0px 0px 0px 20px;
+	margin: -10px 20px 0px 0px;
+	float: left;
+}
+
+.abouttext {
+	font-family: arial;
+	padding: auto 0px 10px 5px;
+	margin: -16px 20px 30px 20px;
+	line-height: 2;
+}
+
+.greenh1 {
+	font-family: georgia, Times, serif;
+	color:#4aaaa5;
+	padding: 0px 0px 0px 20px;
+	font-size: 2em;
+}
+
+.greenh1social {
+	text-align: center;
+	font-family: georgia, Times, serif;
+	font-size: 1.25em;
+	color:#4aaaa5;
+	margin: 10%;
+	padding-top: 10px;
+}
+
+#hrsocial {
+	height: 1px;
+	width: 80%;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 10%;
+	display: none;
+}
+
+#stackoverflowlogo {
+	width: 60px;
+	height: 58px;
+	margin-bottom: 2.5px;
+}
+
+#socialicons {
+	margin: -8% 5% 5% 13.5%;
+}
+
+
+.hrabout {
+	height: 1px;
+	width: 93%;
+	border: 0;
+	border-top: 1px solid #ccc;
+
+}
+
+footer {
+	font-size: 1em;
+}
+
+#contact{
+	width: 650px;
+	height: 450px;
+	color: #777;
+	background-color: #fff;
+	float: left;
+	text-align: left;
+	line-height: 1.5;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+#formcontainer {
+	margin: -2% 3% 5% 3%;
+}
+
+#contact_form
+{
+	line-height: 2;
+}
+
+#submit_button{
+
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	margin-top: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+
+}
+
+.portitem {
+
+	height: 175px;
+	width: 275px;
+	background-color: #333;
+	float: left;
+
+	margin-left: 4%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+
+
+}
+
+.h2portitem {
+
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 275px;
+	position: absolute;
+	margin-top: 7.5%;
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	text-align: center;
+	line-height: 2;
+	font-weight: 400;
+
+}
+
+

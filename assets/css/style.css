@@ -170,10 +170,6 @@ header nav ul li a:hover {
 	font-size: 20px;
 }
 
-.projects-lllmain img {
-	width: 100%;
-}
-
 .projects-lll {
 	flex: 4;
 	background-color: transparent;
@@ -184,6 +180,10 @@ header nav ul li a:hover {
 	color: white;
 	position:sticky;
 	font-size: 20px;
+}
+
+.projects-lll header {
+	color: white;	
 }
 
 /* PROJECTION SECTION ENDS */
@@ -287,6 +287,7 @@ header nav ul li a:hover {
 	  text-align: center;
 	  width: 100%;
 	}
+}
 	
   
   @media screen and (max-width: 768px) {

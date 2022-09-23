@@ -158,6 +158,15 @@ header nav ul li a:hover {
 	width: 75%;
 }
 
+.projects h2 {
+	width: 80%;
+	text-align: center;
+	margin: 3.5%;
+	color: white;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
 .projects-lllmain {
 	flex: 4;
 	background-color: transparent;
